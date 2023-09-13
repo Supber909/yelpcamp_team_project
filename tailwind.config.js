@@ -14,7 +14,8 @@ module.exports = {
       backgroundPosition: {
         'left-4': '1rem',
         
-      }
+      },
+    
     },
   },
   plugins: [],
