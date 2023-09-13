@@ -534,13 +534,29 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.text-red-400 {
+.text-textGrey {
   --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity));
+  color: rgb(121 121 121 / var(--tw-text-opacity));
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: robotoBold;
+
+  src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: robotoRegular;
+
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
