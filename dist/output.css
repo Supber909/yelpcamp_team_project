@@ -534,9 +534,80 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-sky-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-red-400 {
@@ -544,3 +615,36 @@ video {
   color: rgb(248 113 113 / var(--tw-text-opacity));
 }
 
+body{
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  /* we can define reusable colors here like the text colors etc. */
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+@font-face {
+  font-family: robotoBold;
+
+  src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: robotoRegular;
+
+  src: url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
