@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+   /* we can define reusable colors here like the text colors etc. */
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+}
+
+@font-face {
+    font-family: robotoBold;
+    src: url("../assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: robotoRegular;
+    src: url("../assets/fonts/Roboto-Regular.ttf");
+}
