@@ -7,7 +7,15 @@ module.exports = {
         "textBlack": 'rgb(0,0,0)',
         'textGrey': '#797979',
         'greyBg': '#f9f6f1',
-      }
+      },
+      backgroundImage: {
+        'search-icon': "url('../assets/images/Search Icon.svg')",
+      },
+      backgroundPosition: {
+        'left-4': '1rem',
+        
+      },
+    
     },
   },
   plugins: [],
