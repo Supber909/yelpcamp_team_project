@@ -6,41 +6,62 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./dist/output.css">
     <title>YelpCamp</title>
 </head>
 <body>
-    <div className = "bg-lightYellow flex lg:flex-rows flex-cols-reverse lg:h-screen h-auto">
-        <div className = "lg:px-24 px-12 flex flex-cols flex-1 py-8">
-            <img className = "w-fit" src = "./assets/images/Logo.svg" alt = "Yelpcamp logo" />
-          </div>  
-            <div className = "flex-1 flex flex-cols justify-center text-stone-700">
-                <h1 className = "text-black leading-tight lg:text-7xl md:text-5xl text-3xl font-bold">Explore the best camps on Earth.</h1>
-                <div className = "text-lg mt-2 mb-3">YelpCamp is a curated list of the bes camping spots on Earth. Unfiltered and unbiased reviews.</div>
-                <ul className = "list-none">
-                    <li className = "mb-3"><img className = "inline mr-1" src ="./assets/images/Checkmark.svg" alt = "Checkmark" />Add your own camp suggestions.</li>
-                    <li className = "mb-3"><img className = "inline mr-1" src ="./assets/images/Checkmark.svg" alt = "Checkmark" />Leave reviews and experiences</li>
-                    <li className = "mb-3"><img className = "inline mr-1" src ="./assets/images/Checkmark.svg" alt = "Checkmark" />See locations for all camps</li>
-                </ul>
-                </div>
-                <div>
-                    <button class="text-1xl create  px-6 py-4 bg-textBlack text-white rounded-md cursor-pointer" href= "./search.html" />
-                    View Campgrounds
-                </button>
-                </div>
-               
-                <div >
-                    <h3 className = "mt-4 mb-2">Partnered with:</h3>
-                </div>
-                <div className = "flex flex-rows">
-                    <img src ="./assets/images/Airbnb.svg" alt = "Airbnb logo" />
-                    <img src ="./assets/images/Booking.svg" alt = "Booking.com logo" />
-                    <img src ="./assets/images/Plum Guide.svg" alt = "PLUMGUIDE logo" />
-                </div>
+    <nav class="bg-transparent fixed top-0 left-0 w-full z-50">
+        <div class="container mx-auto p-4">
+            <div class="nav-bar logo">
+                <img src="assets/images/Logo.svg" alt="logo">
             </div>
         </div>
-        <div className="right_nav  flex-row justify-items-center content-center items-center gap-x-6 hidden lg:flex">
-            <img src ="./assets/images/Hero Image.jpg" alt = "Landing Cover" />
+    </nav>
+
+    <section class="showcase py-5 lg:py-10 bg-secondary-color">
+        <div class="container mx-auto flex flex-col items-center justify-center lg:flex-row">
+            <div class="left-showcase w-full lg:w-1/2 px-4">
+                <h1 class="showcase-title text-3xl font-semibold leading-tight font-bold">
+                    Explore the best camps on Earth.
+                </h1>
+                <p class="showcase-subtitle text-base text-gray-600 my-4 leading-relaxed pr-8">
+                    YelpCamp is a curated list of the best camping spots on Earth. 
+                    Unfiltered and unbiased reviews
+                </p>
+                <div class="list-none mb-3 flex ">
+                    <ul>
+                        <li class="flex justify-start items-center ">
+                            <img src="assets/images/Checkmark.svg" alt="checkmark">
+                            <p>Add your own camp suggestions.</p>
+                        </li>
+                        <li class="flex justify-start items-center ">
+                            <img src="assets/images/Checkmark.svg" alt="checkmark">
+                            <p>Leave reviews and experiences.</p>
+                        </li>
+                        <li class="flex justify-start items-center ">
+                            <img src="assets/images/Checkmark.svg" alt="checkmark">
+                            <p>See locations for all camps.</p>
+                        </li>
+                    </ul>
+                </div>
+                <a class="text-1xl create mt-2 p-3 bg-textBlack text-white  rounded-md cursor-pointer" href= "./search.html">
+                View Campgrounds
+                </a>
+                <div class="mt-4 mb-2 font-bold">
+                    <p>Partnered with:</p>
+                </div>
+                <div class="showcase-partner mx-auto flex flex-row items-center justify-left lg:flex-row">
+                    <img src="assets/images/Airbnb.svg" alt="Airbnb">
+                    <img src="assets/images/Booking.svg" alt="Booking">
+                    <img src="assets/images/Plum Guide.svg" alt="Plum Guide">
+                </div>
+            </div>
+            <div class="absolute w-auto h-full bg-cover bg-no-repeat">
+                <img src="./assets/images/Hero Image.jpg" alt="">
+            </div>
         </div>
-    </div>
+       
+    </section>
+    
 </body>
 </html>
