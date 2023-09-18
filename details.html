@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,32 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link href="./dist/output.css" rel="stylesheet">
 </head>
+
 <body>
 
     <section class="wrapper px-12 lg:px-28 py-10">
         <nav class="nav_wrapper  flex flex-row justify-between justify-items-center items-center	">
             <div class="left_nav flex flex-row justify-items-center content-center items-center	gap-x-6">
-                <img src="./assets/images/Logo.svg" alt="logo" >
+                <img src="./assets/images/Logo.svg" alt="logo">
                 <a href="/" class=" text-textGrey text-1xl hidden lg:flex">Home</a>
             </div>
             <div class="right_nav  flex-row justify-items-center content-center items-center gap-x-6 hidden lg:flex">
                 <div><a href="/login" class="text-1xl">Login</a></div>
-                <div class="text-1xl create  px-6 py-4 bg-textBlack text-white rounded-md cursor-pointer">Create an account</div>
+                <div class="text-1xl create  px-6 py-4 bg-textBlack text-white rounded-md cursor-pointer">Create an
+                    account</div>
             </div>
             <div class="mobile_menu block lg:hidden">
-                <img src="./assets/images/Hamburger.svg" alt="" >
+                <img src="./assets/images/Hamburger.svg" alt="">
             </div>
         </nav>
-        
+
         <div class="body_wrapper flex flex-col  lg:flex-row gap-x-6 mt-10">
-            <div class="map border  p-8 w-full lg:w-2/5 flex-shrink-0 h-fit order-last lg:order-first mt-8 md:mt-0">
+            <div class="map border rounded p-10 w-full lg:w-1/3 flex-shrink-0 h-fit order-last lg:order-first mt-8 md:mt-0">
                 <img src="/assets/images/Map.png" alt="" class="w-full">
             </div>
-            <div class="details w-ful lg:w-3/5 flex flex-col gap-y-8">
-                <div class="card border  p-8 ">
-                    <img src="assets/images/compressed/MountUlap.jpg" alt="" class="w-full">
+            <div class="details w-ful lg:w-2/3 flex flex-col gap-y-8">
+                <div id="camp-details" class="card border  p-10 rounded ">
+                    <!-- <img src="assets/images/compressed/MountUlap.jpg" alt="" class="w-full">
                     <div class="text">
                         <div class="my-3 header_text flex flex-row justify-between p-0">
                            <p class="header text-textBlack font-bold ">Mount Ulap</p>
@@ -40,24 +43,34 @@
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi amet deserunt sunt voluptatibus corrupti doloribus minus eveniet, mollitia nesciunt, blanditiis repellat quo aliquam possimus et neque asperiores inventore eius sapiente. Saepe, quaerat. Velit, ipsam. Dolorem?
                         </p>
                         <p class="mt-2 italic text-sm text-textGrey">Submitted by Felz</p>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="review_wrapper border  p-8">
-                <div class="single_review py-4 border-b ">
+                <div id="review_wrapper" class="review_wrapper border  p-8 rounded">
+                    <!-- <div class="single_review py-4 border-b ">
                     <div class="header_text flex flex-row justify-between">
                         <p class="header text-textBlack font-bold ">Mount Ulap</p>
                         <p class="price text-sm">15h ago</p>  
                      </div>
                      <p class="text-textGrey text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio fugit est necessitatibus error ducimus voluptatum quod nostrum deserunt id fuga.</p>
+                </div> -->
+                    <div class="flex justify-end">
+                        <div class="flex">
+                            <img src="./assets/images/UserTestimonial.svg" alt="">
+                            Leave a Review
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            </div>
-            
+
         </div>
 
         <footer class="py-6">
             <img src="./assets/images/Logo.svg" alt="logo">
         </footer>
     </section>
+
+    <script type="module" src="./js/details.js"></script>
 </body>
+
 </html>

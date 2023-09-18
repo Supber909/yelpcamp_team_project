@@ -1,10 +1,11 @@
 const camps = [
     {
       id: 1,
-      image: "../utils/assets/images/compressed/mountUlap.jpg",
+      image: "./assets/images/compressed/MountUlap.jpg",
       name: 'mount ulap',
-      price:"$360/hr",
+      price:"$360 ",
       description: 'one of the most famous hikes in Benguet is Mt Ulap in Itogon.',
+      submittedby: "Felz",
       reviews: [
         {
             id: 1,
@@ -24,8 +25,10 @@ const camps = [
     },
     {
         id: 2,
+        image: "./assets/images/compressed/CalaguasIsland.jpg",
         name: 'Calaguas Islands',
-        price:"$260/hr",
+        price:"$260 ",
+        submittedby: "Daphne",
         description: 'A paradise of islands that can rival the white sand and beauty of Boracay',
         reviews: [
           {
@@ -46,8 +49,10 @@ const camps = [
       },
       {
         id: 3,
+        image: "./assets/images/compressed/OnayBeach.jpg",
         name: 'Onay Beach',
-        price:"$560/hr",
+        price:"$560 ",
+        submittedby: "Blessing",
         description: 'This is one of the best beach camping sites, beautiful and pristine',
         reviews: [
           {
@@ -75,8 +80,10 @@ const camps = [
       },
       {
         id: 4,
+        image: "./assets/images/compressed/SevenSistersWaterfall.jpg",
         name: 'Seven Sisters Waterfall',
-        price:"$660/hr",
+        price:"$660 ",
+        submittedby: "Blessing",
         description: 'The seven sisters is the 39th tallest waterfall in Norway',
         reviews: [
           {
@@ -97,8 +104,10 @@ const camps = [
       },
       {
         id: 5,
+        image: "./assets/images/compressed/LatikRiverside.jpg",
         name: 'Latik Riverside',
-        price:"$360/hr",
+        submittedby: "Maria",
+        price:"$360 ",
         description: 'Philippines is one of the most dazzling countries in Asia',
         reviews: [
           {
@@ -119,8 +128,10 @@ const camps = [
       }, 
       {
         id: 6,
+        image: "./assets/images/compressed/BuloySprings.jpg",
         name: 'Buloy Springs',
-        price:"$250/hr",
+        price:"$250 ",
+        submittedby: "Pipe",
         description: 'This is one of the best beach camping sites, beautiful and pristine',
         reviews: [
           {
@@ -141,5 +152,5 @@ const camps = [
       }, 
   ];
   
-  module.exports = camps;
+  export default camps;
   
