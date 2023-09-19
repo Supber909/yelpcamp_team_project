@@ -10,58 +10,61 @@
     <title>YelpCamp</title>
 </head>
 <body>
-    <nav class="bg-transparent fixed top-0 left-0 w-full z-50">
-        <div class="container mx-auto p-4">
-            <div class="nav-bar logo">
-                <img src="assets/images/Logo.svg" alt="logo">
-            </div>
-        </div>
-    </nav>
 
-    <section class="showcase py-5 lg:py-10 bg-secondary-color">
-        <div class="container mx-auto flex flex-col items-center justify-center lg:flex-row">
-            <div class="left-showcase w-full lg:w-1/2 px-4">
-                <h1 class="showcase-title text-3xl font-semibold leading-tight font-bold">
-                    Explore the best camps on Earth.
-                </h1>
-                <p class="showcase-subtitle text-base text-gray-600 my-4 leading-relaxed pr-8">
-                    YelpCamp is a curated list of the best camping spots on Earth. 
-                    Unfiltered and unbiased reviews
-                </p>
-                <div class="list-none mb-3 flex ">
-                    <ul>
-                        <li class="flex justify-start items-center ">
-                            <img src="assets/images/Checkmark.svg" alt="checkmark">
-                            <p>Add your own camp suggestions.</p>
-                        </li>
-                        <li class="flex justify-start items-center ">
-                            <img src="assets/images/Checkmark.svg" alt="checkmark">
-                            <p>Leave reviews and experiences.</p>
-                        </li>
-                        <li class="flex justify-start items-center ">
-                            <img src="assets/images/Checkmark.svg" alt="checkmark">
-                            <p>See locations for all camps.</p>
-                        </li>
-                    </ul>
-                </div>
-                <a class="text-1xl create mt-2 p-3 bg-textBlack text-white  rounded-md cursor-pointer" href= "./search.html">
+    <header class="md:hidden py-4"  >
+        <img  src="./assets/images/Logo.svg" alt="logo">
+    </header>
+
+    <main class="flex-col-reverse md:flex-row flex h-screen">
+        
+        <section class="md:w-3/5  bg-greyBg md:px-16 lg:px-32">
+            <div class="md:flex hidden mt-8">
+                <img src="./assets/images/Logo.svg" alt="logo">
+            </div>
+           
+            <h1 class="md:mt-16 sm:mt-10 sm:text-h1 font-bold">Explore the best camps on Earth.</h1>
+            
+            <p class="text-textGrey py-4">YelpCamp is a curated list of the best camping spots on Earth. Unfiltered and unbiased reviews</p>
+    
+            <ul class=" text-textGrey md:text-base text-sm pb-8">
+                <li class="flex justify-start items-center pb-1 ">
+                    <img class="me-2" src="assets/images/Checkmark.svg" alt="checkmark">
+                    <p>Add your own camp suggestions.</p>
+                </li>
+                <li class="flex justify-start items-center pb-1 ">
+                    <img class="me-2" src="assets/images/Checkmark.svg" alt="checkmark">
+                    <p>Leave reviews and experiences.</p>
+                </li>
+                <li class="flex justify-start items-center pb-1 ">
+                    <img class="me-2" src="assets/images/Checkmark.svg" alt="checkmark">
+                    <p>See locations for all camps.</p>
+                </li>
+            </ul>
+
+            <a class="text-1xl create mt-2 p-3 bg-textBlack text-white  rounded-md cursor-pointer" href= "./search.html">
                 View Campgrounds
-                </a>
-                <div class="mt-4 mb-2 font-bold">
-                    <p>Partnered with:</p>
-                </div>
-                <div class="showcase-partner mx-auto flex flex-row items-center justify-left lg:flex-row">
-                    <img src="assets/images/Airbnb.svg" alt="Airbnb">
-                    <img src="assets/images/Booking.svg" alt="Booking">
-                    <img src="assets/images/Plum Guide.svg" alt="Plum Guide">
-                </div>
+            </a>
+        
+            <p class="mt-10 mb-2 text-textGrey">Partnered with:</p>
+        
+            <div class=" md:mb-0 mb-10 flex flex-row items-center justify-left lg:flex-row">
+                <img src="./assets/images/Airbnb.svg" alt="Airbnb">
+                <img src="./assets/images/Booking.svg" alt="Booking">
+                <img src="./assets/images/Plum Guide.svg" alt="Plum Guide">
             </div>
-            <div class="absolute w-auto h-full bg-cover bg-no-repeat">
-                <img src="./assets/images/Hero Image.jpg" alt="">
-            </div>
-        </div>
+           
+        </section>
+        <section class="md:w-2/5">
+            <img class="md:flex hidden object-cover h-screen  w-full" src="./assets/images/Hero Image.jpg" alt="">
+            <img class="md:hidden w-full object-cover" src="./assets/images/Hero Image (Tablet and Mobile).jpg" alt="">
+        </section>
+
        
-    </section>
+
+    </main>
+
+
+    
     
 </body>
 </html>
