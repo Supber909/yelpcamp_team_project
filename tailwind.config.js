@@ -15,6 +15,9 @@ module.exports = {
         'left-4': '1rem',
         
       },
+      fontSize: {
+        'h1': ['2.5rem', '2.5rem'],
+      },
     
     },
   },
