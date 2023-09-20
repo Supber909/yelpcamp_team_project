@@ -18,6 +18,10 @@ module.exports = {
       fontSize: {
         'h1': ['2.5rem', '2.5rem'],
       },
+      width: {
+        '55': '55%',
+        '45': '45%',
+      },
     
     },
   },

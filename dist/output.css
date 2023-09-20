@@ -832,11 +832,6 @@ video {
   padding-right: 1.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1120,6 +1115,14 @@ body{
 
   .lg\:w-3\/5 {
     width: 60%;
+  }
+
+  .lg\:w-45 {
+    width: 45%;
+  }
+
+  .lg\:w-55 {
+    width: 55%;
   }
 
   .lg\:grid-cols-3 {
