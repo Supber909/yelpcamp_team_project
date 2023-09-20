@@ -1,5 +1,5 @@
 // import json data
-import camps from "./utils/camps.js";
+import camps from "../utils/camps.js";
 import { searchCamps } from "./search.js";
 // Function to render camps and append them to the HTML
 const campListContainer = document.getElementById('campList');
