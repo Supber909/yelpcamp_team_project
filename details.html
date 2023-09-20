@@ -11,6 +11,21 @@
 
 <body>
 
+    <!--overlay mobile menu -->
+    
+    <div id="menu" class=" fixed hidden w-screen h-screen opacity-95 z-90  flex justify-center items-center bg-gray-900 duration-700">
+        <div
+            class="close_btn fixed top-6 right-8 text-white hover:text-red-500 text-7xl font-semibold duration-300"
+            >&times;
+        </div>
+        <div class="flex flex-col text-white text-center text-xl font-light space-y-3">
+            <a href="/" class=" py-1 font-bold text-white">Home</a>
+            <a href="#" class=" mb-1 py-1 font-bold text-white ">Login</a>
+            <div class="text-1xl create  px-6 py-4 bg-textBlack text-white rounded-md cursor-pointer">Create an account</div>
+        </div>
+    </div>
+
+    <!--page content start -->
     <section class="wrapper px-12 lg:px-28 py-10">
         <nav class="nav_wrapper  flex flex-row justify-between justify-items-center items-center	">
             <div class="left_nav flex flex-row justify-items-center content-center items-center	gap-x-6">
@@ -18,7 +33,7 @@
                 <a href="/" class=" text-textGrey text-1xl hidden lg:flex">Home</a>
             </div>
             <div class="right_nav  flex-row justify-items-center content-center items-center gap-x-6 hidden lg:flex">
-                <div><a href="/login" class="text-1xl">Login</a></div>
+                <div><a href="#" class="text-1xl">Login</a></div>
                 <div class="text-1xl create  px-6 py-4 bg-textBlack text-white rounded-md cursor-pointer">Create an
                     account</div>
             </div>

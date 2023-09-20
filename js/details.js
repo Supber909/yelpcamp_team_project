@@ -1,3 +1,22 @@
+// mobile menu function
+
+const menu = document.getElementById("menu");
+const openbtn = document.querySelector(".mobile_menu");
+const closebtn = document.querySelector(".close_btn");
+
+// this function is used to open the menu
+openbtn.addEventListener("click", () => {
+
+    menu.classList.remove("hidden");
+    
+});
+
+// this function is used to close the menu
+closebtn.addEventListener("click", () => {
+  
+  menu.classList.add("hidden");
+});
+
 // import camps
 import camps from "../utils/camps.js";
 
