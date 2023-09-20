@@ -31,24 +31,32 @@ Users should be able to:
 - Campground data must not be hardcoded!
 
 ### Screenshot
+Desktop view of landing page
+![Desktop view of landing page](./design/yelpcamp-team-charlie.vercel.app_-min.png)
 
-![desktop view of landing page](./design/yelpcamp-team-charlie.vercel.app_.png)
+Tablet view of landing page
+![Tablet view of landing page](./design/yelpcamp-team-charlie.vercel.app_%20tablet-min.png)
 
-![Tablet view of landing page](./design/yelpcamp-team-charlie.vercel.app_%20tablet.png)
+Mobile view of landing page
+![Mobile view of landing page](./design/yelpcamp-team-charlie.vercel.app_%20mobile-min.png)
 
-![Mobile view of landing page](./design/yelpcamp-team-charlie.vercel.app_%20mobile.png)
+Desktop view of search page
+![Desktop view of search page](./design/yelpcamp-team-charlie.vercel.app_search.html-min.png)
 
-![desktop view of search page](./design/yelpcamp-team-charlie.vercel.app_search.html.png)
+Tablet view of search page
+![Tablet view of search page](./design/yelpcamp-team-charlie.vercel.app_search.html_tablet-min.png)
 
-![Tablet view of search page](./design/yelpcamp-team-charlie.vercel.app_search.html_tablet.png)
+Mobile view of search page
+![Mobile view of search page](./design/yelpcamp-team-charlie.vercel.app_search.html_mobile-min.png)
 
-![Mobile view of search page](./design/yelpcamp-team-charlie.vercel.app_search.html_mobile.png)
+Desktop view of details page
+![Desktop view of details page](./design/yelpcamp-team-charlie.vercel.app_details.html_id=1-min.png)
 
-![desktop view of details page](./design/yelpcamp-team-charlie.vercel.app_details.html_id=1.png)
+Tablet view of details page
+![Tablet view of details page](./design/yelpcamp-team-charlie.vercel.app_details.html_id=2%20_tablet-min.png)
 
-![Tablet view of details page](./design/yelpcamp-team-charlie.vercel.app_details.html_id=2%20_tablet.png)
-
-![Mobile view of details page](./design/yelpcamp-team-charlie.vercel.app_details.html_id=2_mobile.png)
+Mobile view of details page
+![Mobile view of details page](./design/yelpcamp-team-charlie.vercel.app_details.html_id=2_mobile-min.png)
 
 ### Links
 
