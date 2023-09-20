@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 Desktop view of landing page
-![Desktop view of landing page](./design/yelpcamp-team-charlie.vercel.app_-min.png)
+![Desktop view of landing page](./design/127.0.0.1_5501_index.html-min.png)
 
 Tablet view of landing page
 ![Tablet view of landing page](./design/yelpcamp-team-charlie.vercel.app_%20tablet-min.png)
@@ -41,22 +41,22 @@ Mobile view of landing page
 ![Mobile view of landing page](./design/yelpcamp-team-charlie.vercel.app_%20mobile-min.png)
 
 Desktop view of search page
-![Desktop view of search page](./design/yelpcamp-team-charlie.vercel.app_search.html-min.png)
+![Desktop view of search page](./design/127.0.0.1_5501_search.html-min.png)
 
 Tablet view of search page
-![Tablet view of search page](./design/yelpcamp-team-charlie.vercel.app_search.html_tablet-min.png)
+![Tablet view of search page](./design/127.0.0.1_5501_search.html_tablet-min.png)
 
 Mobile view of search page
-![Mobile view of search page](./design/yelpcamp-team-charlie.vercel.app_search.html_mobile-min.png)
+![Mobile view of search page](./design/127.0.0.1_5501_search.html_mobile-min.png)
 
 Desktop view of details page
-![Desktop view of details page](./design/yelpcamp-team-charlie.vercel.app_details.html_id=1-min.png)
+![Desktop view of details page](./design/127.0.0.1_5501_details.html_id=1-min.png)
 
 Tablet view of details page
-![Tablet view of details page](./design/yelpcamp-team-charlie.vercel.app_details.html_id=2%20_tablet-min.png)
+![Tablet view of details page](./design/127.0.0.1_5501_details.html_id=2_tablet-min.png)
 
 Mobile view of details page
-![Mobile view of details page](./design/yelpcamp-team-charlie.vercel.app_details.html_id=2_mobile-min.png)
+![Mobile view of details page](./design/127.0.0.1_5501_details.html_id=2_mobile-min.png)
 
 ### Links
 
