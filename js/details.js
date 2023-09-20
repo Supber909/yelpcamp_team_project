@@ -1,3 +1,22 @@
+// mobile menu function
+
+const menu = document.getElementById("menu");
+const openbtn = document.querySelector(".mobile_menu");
+const closebtn = document.querySelector(".close_btn");
+
+// this function is used to open the menu
+openbtn.addEventListener("click", () => {
+
+    menu.classList.remove("hidden");
+    
+});
+
+// this function is used to close the menu
+closebtn.addEventListener("click", () => {
+  
+  menu.classList.add("hidden");
+});
+
 // import camps
 import camps from "../utils/camps.js";
 
@@ -19,7 +38,7 @@ function displayCampDetails() {
         <p class="header text-textBlack font-bold">${camp.name}</p>
         <p class="price text-lg text-textBlack">${camp.price}/night</p>
       </div>
-      <p class="desc text-textGrey text-sm">${camp.description}</p>
+      <p class="desc text-textGrey text-sm">${camp.longdescription}</p>
       <p class="mt-2 italic text-sm text-textGrey">Submitted by ${camp.submittedby}</p>
     </div>
   `;

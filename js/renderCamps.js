@@ -1,5 +1,25 @@
+// mobile menu function
+
+const menu = document.getElementById("menu");
+const openbtn = document.querySelector(".mobile_menu");
+const closebtn = document.querySelector(".close_btn");
+
+// this function is used to open the menu
+openbtn.addEventListener("click", () => {
+
+    menu.classList.remove("hidden");
+    
+});
+
+// this function is used to close the menu
+closebtn.addEventListener("click", () => {
+  
+  menu.classList.add("hidden");
+});
+
+
 // import json data
-import camps from "/utils/camps.js";
+import camps from "../utils/camps.js";
 import { searchCamps } from "./search.js";
 // Function to render camps and append them to the HTML
 const campListContainer = document.getElementById('campList');
@@ -65,7 +85,14 @@ searchBox.addEventListener('input', () => {
 function performSearch() {
   const searchText = searchBox.value.toLowerCase();
   const filteredCamps = searchCamps(searchText, camps);
-  renderCamps(filteredCamps);
+  
+  if (filteredCamps.length == 0) {
+    // Display "No results" message
+    campListContainer.innerHTML = "<h1 class='text-3xl lg:px-6 px-3'>No camp found</h1>";
+  } else {
+    // Call the renderCamps function with the filtered camps
+    renderCamps(filteredCamps);
+  }
 }
 
 // Get the search form element
@@ -73,6 +100,7 @@ const searchForm = document.getElementById('searchForm');
 
 // Add an event listener to the form's submit event
 searchForm.addEventListener('submit', (event) => {
+  
   event.preventDefault(); // Prevent the form from submitting
 
   // Get the search input value
@@ -82,12 +110,12 @@ searchForm.addEventListener('submit', (event) => {
   const filteredCamps = searchCamps(searchText, camps);
   // Call the renderCamps function with the filtered camps
 // Clear the camp details container
-campDetailsElement.innerHTML = '';
+campListContainer.innerHTML = '';
 
 // Check if there are search results
-if (filteredCamps.length <= 0) {
+if (filteredCamps.length == 0) {
   // Display "No results" message
-  campDetailsElement.innerHTML = "No results";
+  campListContainer.innerHTML = "<h1 class='text-3xl lg:px-6 px-3'>No camp found</h1>";
 } else {
   // Call the renderCamps function with the filtered camps
   renderCamps(filteredCamps);

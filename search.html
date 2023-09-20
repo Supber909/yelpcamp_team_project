@@ -9,22 +9,37 @@
 
 </head>
 <body>
+
+    <!--overlay mobile menu -->
+    <div id="menu" class=" fixed hidden w-screen h-screen opacity-95 z-90  flex justify-center items-center bg-gray-900 duration-700">
+        <div
+            class="close_btn fixed top-6 right-8 text-white hover:text-red-500 text-7xl font-semibold duration-300"
+            >&times;
+        </div>
+        <div class="flex flex-col text-white text-center text-xl font-light space-y-3">
+            <a href="./index.html" class=" py-1 font-bold text-white">Home</a>
+            <a href="#" class=" mb-1 py-1 font-bold text-white ">Login</a>
+            <div class="text-1xl create  px-6 py-4 bg-textBlack text-white rounded-md cursor-pointer">Create an account</div>
+        </div>
+    </div>
+
     
+    <!--page content start -->
    
-     <section class="md:px-12 px-4 lg:px-28" > 
+    <section class="md:px-12 px-4 lg:px-28" > 
         
         <header class="lg:px-6 px-3 py-4">
             <nav class="py-6 nav_wrapper  flex flex-row justify-between justify-items-center items-center	">
                 <div class="left_nav flex flex-row justify-items-center content-center items-center	gap-x-6">
                     <img src="./assets/images/Logo.svg" alt="logo" >
-                    <a href="/" class=" text-textGrey  hidden lg:flex">Home</a>
+                    <a href="./index.html" class=" text-textGrey  hidden lg:flex">Home</a>
                 </div>
                 <div class="right_nav  flex-row justify-items-center content-center items-center gap-x-6 hidden lg:flex">
-                    <div><a href="/login" >Login</a></div>
+                    <div><a href="#" >Login</a></div>
                     <div class="text-1xl create  px-6 py-4 bg-textBlack text-white rounded-md cursor-pointer">Create an account</div>
                 </div>
-                <div class="mobile_menu block lg:hidden">
-                    <img src="./assets/images/Hamburger.svg" alt="" >
+                <div class="mobile_menu block lg:hidden" >
+                    <img src="./assets/images/Hamburger.svg" alt="" > 
                 </div>
             </nav>
 
@@ -34,7 +49,7 @@
                     <p class=" mt-2 text-textGrey">View our hand picked campground from all over the world, or add your own.</p>
                    
                     <form class="w-full my-4" action="" id="searchForm">
-                        <input id="searchBox" class="sm:w-3/5 w-full py-3 ps-10 bg-left-4 bg-search-icon bg-no-repeat" type="search" placeholder="Search for campus">
+                        <input id="searchBox" class="sm:w-3/5 w-full py-3 ps-10 pe-5 bg-left-4 bg-search-icon bg-no-repeat" type="search" placeholder="Search for campus">
                         <button id="searchButton" class="sm:w-32 w-full text-lg create sm:mt-0 mt-3 sm:ms-2 px-6 py-3 bg-textBlack text-white rounded cursor-pointer">Search</button>
                     </form>
                     
@@ -56,6 +71,7 @@
             <img src="./assets/images/Logo.svg" alt="logo">
         </footer>
     </section>
+   
     <script type="module" src="./js/renderCamps.js"></script>
     <script type="module" src="./js/search.js"></script>
 </body>
