@@ -63,6 +63,7 @@ Mobile view of details page
 - Solution URL: [Felicity's repo](https://github.com/felabel/yelpcamp_team_project)
 - Solution URL: [Daphne's repo](https://github.com/derhuv/yelpcamp_team_project)
 - Solution URL: [Patience's repo](https://github.com/Ndapat/yelpcamp_team_project)
+- Solution URL: [Blessing's repo](https://github.com/Supber909/yelpcamp_team_project)
 
 - Live Site URL: [Yelpcamp Team Charlie](https://yelpcamp-team-charlie.vercel.app/)
 
@@ -97,6 +98,7 @@ Mobile view of details page
 - Website - [Felabel](https://github.com/felabel)
 - Website - [Derhuv](https://github.com/derhuv)
 - Website - [Ndapat](https://github.com/Ndapat)
+- Website - [supber909](https://github.com/Supber909)
 
 
 
